@@ -6,10 +6,9 @@
     font-family: Space Grotesk;
 }
 
-
 .image-container {
     position: relative;
-  }
+ }
   
 img.front {
     position: absolute;
