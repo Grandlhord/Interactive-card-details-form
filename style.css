@@ -58,12 +58,12 @@ img.back {
   color: #444;
  }
  
- .container form .flexbox {
+ .container form .flexbox1 {
   display: flex;
   gap: 15px;
  }
  
- .container form .flexbox .inputBox {
+ .container form .flexbox1 .inputBox {
   flex: 1 1 150px;
  }
  
