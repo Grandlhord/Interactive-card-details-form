@@ -1,7 +1,9 @@
+ @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Space Grotesk;
 }
 
 
@@ -82,3 +84,26 @@ img.back {
   opacity: .8;
  }
  
+ .card-number-box {
+  position: absolute;
+  top: 310px;
+  left: 180px;
+  letter-spacing: 0.5rem;
+ }
+
+ .flexbox{
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  position:absolute;
+  top:22rem;
+  left:10rem;
+ }
+ .expiration span:nth-child(1),:nth-child(2){
+    color: #fff;
+    }
+.cvc {
+    position: absolute;
+    top: 34rem;
+    left: 37rem;
+}
