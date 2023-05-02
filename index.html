@@ -42,11 +42,11 @@
         <form action="">
             <div class="inputBox">
                 <span>CARDHOLDER NAME</span>
-                <input type="text" maxlength="16" class="card-number-input" placeholder="eg.Wisdom Eli">
+                <input type="text" maxlength="24" class="card-holder" placeholder="eg.Wisdom Eli">
             </div>
             <div class="inputBox">
                 <span>CARD NUMBER</span>
-                <input type="text" class="card-holder-input" placeholder="eg. 1234 5678 9123 0000">
+                <input type="text" maxlength="19" class="card-number" placeholder="eg. 1234 5678 9123 0000">
             </div>
             <div class="flexbox1">
                 <div class="inputBox">
@@ -71,20 +71,21 @@
                     <span>(MM/YY)</span>
                     <select name="" id="" class="year-input">
                     <option value="year" selected disabled>year</option>
-                    <option value="2023">2023</option>
-                    <option value="2024">2024</option>
-                    <option value="2025">2025</option>
-                    <option value="2026">2026</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
                
                 </select>
                 </div>
                 <div class="inputBox">
                     <span>cvv</span>
-                    <input type="text" maxlength="4" class="cvv-input">
+                    <input type="text" maxlength="3" class="input-cvc">
                 </div>
             </div>
             <input type="submit" value="CONFIRM" class="submit-btn">
         </form>
       </div>
+      <script src="script.js"></script>
 </body>
 </html>
